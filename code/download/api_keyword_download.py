@@ -10,12 +10,9 @@ with open(path+"token.txt", "r") as f:
     for line in f:
         BEARER_TOKEN = line.strip()
 
-DATA_FOLDER = 'C:/TwitterChatGPTProject/data/16_hashtags/'
+DATA_FOLDER = 'C:/TwitterChatGPTProject/data/keyword_search/'
 HASHTAGS = ['chatgpt']
-#HASHTAGS = ['#aussieED', '#UKEdChat','#caedchat','#miched','#sschat',
-#            '#NGSSchat','#TLAP', '#KidsDeserveIt','#HipHopEd', '#EduColor',
-#            '#satchat', '#BFC530','#edtechchat', '#whatisschool', '#globaledchat', 
-#            '#collaborativePD']
+
 
 # Twitter API 2.1 query parameters
 PARAMS = {
@@ -65,7 +62,7 @@ for hashtag in HASHTAGS:
                 f.write(f'Download failed for {hashtag} -- JSON content not correctly loaded\n')
                 continue
         try:
-            PARAMS['next_token'] = j['meta']['next_token']
+            PARAMS['next_token'] = json_loaded['meta']['next_token']
         except KeyError:
             try:
                 if not last_download_failed:
