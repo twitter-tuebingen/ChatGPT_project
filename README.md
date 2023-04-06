@@ -2,9 +2,7 @@
 
 ## About
 
-This repository documents the extraction and analysis of Twitter data on ChatGPT in the period of 30 Nov 2022 - 31 Jan 2023. 
-
-General disclaimer: The Twitter API 2.0 is under active development. This repository, therefore, is not intended to be a one-step, reproducible workflow (e.g., file paths in scripts might need changing before using them). It is, rather, to be used as a guideline and resource for building your own data curation process using the full-archive and conversation search endpoints.
+This repository documents the extraction and analysis of Twitter data dealing with ChatGPT in the period of 30 Nov 2022 - 31 Jan 2023. 
 
 Please contact anastasiia.alekseeva@student.uni-tuebingen.de for more information about this repository, or just leave a pull request.
 
