@@ -2,7 +2,7 @@
 
 ## About
 
-This repository documents the extraction and analysis of Twitter data on ChatGPT in the period of 30 Nov 2022 - 31 Jan 2023. 
+This repository documents the extraction and analysis of Twitter data dealing with ChatGPT in the period of 30 Nov 2022 - 31 Jan 2023. 
 
 Please contact anastasiia.alekseeva@student.uni-tuebingen.de for more information about this repository, or just leave a pull request.
 
